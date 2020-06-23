@@ -1,0 +1,7 @@
+name: CustomEnchantments
+main: me.paper.customenchantments.CustomEnchantments
+version: 1.0
+author: Paper
+commands:
+  enchanter:
+    aliases: [ce]

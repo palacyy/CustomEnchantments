@@ -1,0 +1,90 @@
+#
+#     CustomEnchantments - by Paper
+#
+
+messages:
+  player_only: "&cYou cannot execute this command from the console."
+
+inventories:
+  enchanter:
+    name: "&b&lEnchanter"
+    items:
+      basic:
+        item: "ENCHANTED_BOOK"
+        name: "&7&lBasic Enchant"
+        lore:
+          - "&f&L* &7Click to purchase for 1,500 XP."
+          - ""
+          - "&7&nPossible Enchantments:"
+          - ""
+          - "&7* &fMobcoin Hunter I"
+          - "&7* &fSaturation I"
+          - "&7* &fFire Resistance I"
+          - "&7* &fStarlight I"
+          - "&7* &fHead Hunter I"
+          - "&7* &fWater Breathing I"
+          - "&7* &fTriple I"
+          - "&7* &fHellForge I"
+          - "&7* &fRecover I"
+          - "&7* &fMob Rusher I"
+          - "&7* &fRejuvenation I"
+          - "&7* &fHeadshot I"
+          - "&7* &fAssassin I"
+          - "&7* &fHeavy I"
+          - "&7* &fToken Hunter I"
+      rare:
+        item: "ENCHANTED_BOOK"
+        name: "&b&lRare Enchant"
+        lore:
+          - "&f&l* &7Click to purchase for 3,000 XP."
+          - ""
+          - "&b&nPossible Enchantments:"
+          - ""
+          - "&7* &fMobcoin Hunter II"
+          - "&7* &fSpeed I"
+          - "&7* &fSaturation I"
+          - "&7* &fFire Resistance I"
+          - "&7* &fStarlight I"
+          - "&7* &fHead Hunter II"
+          - "&7* &fWater Breathing I"
+          - "&7* &fTriple II"
+          - "&7* &fHellForge II"
+          - "&7* &fRecover II"
+          - "&7* &fMob Rusher II"
+          - "&7* &fRejuvenation II"
+          - "&7* &fHeadshot II"
+          - "&7* &fAssassin II"
+          - "&7* &fHeavy II"
+          - "&7* &fToken Hunter II"
+      supreme:
+        item: "ENCHANTED_BOOK"
+        name: "&c&lSupreme Enchant"
+        lore:
+          - "&f&l* &7Click to purchase for 4,500 XP."
+          - ""
+          - "&c&nPossible Enchantments:"
+          - ""
+          - "&7* &fMobcoin Hunter III"
+          - "&7* &fSpeed II"
+          - "&7* &fHead Hunter III"
+          - "&7* &fTriple III"
+          - "&7* &fHellForge III"
+          - "&7* &fRecover III"
+          - "&7* &fMob Rusher III"
+          - "&7* &fRejuvenation III"
+          - "&7* &fHeadshot III"
+          - "&7* &fAssassin III"
+          - "&7* &fHeavy III"
+          - "&7* &fToken Hunter III"
+      fillers:
+        outside:
+          material: "STAINED_GLASS_PANE"
+          data: 11
+        inside:
+          material: "STAINED_GLASS_PANE"
+          data: 0
+
+experience_prices:
+  basic: 1500
+  rare: 3000
+  supreme: 4500
